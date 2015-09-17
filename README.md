@@ -1,3 +1,3 @@
 # WorkflowTest
-Testint some stuff regarding git-workflow
+Testing some stuff regarding git-workflow
 ???
