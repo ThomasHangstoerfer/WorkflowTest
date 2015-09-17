@@ -10,6 +10,7 @@ void crash()
   *a = 1;
 }
 
+// call another function to have a more interesting callstack in the core-dump
 int doSomething()
 {
 	printf("Now crashing...\n");
