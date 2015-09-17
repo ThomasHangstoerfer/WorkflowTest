@@ -6,6 +6,7 @@
 */
 void crash()
 {
+  printf("Bazinga!\n");
   volatile int* a = (int*)(NULL);
   *a = 1;
 }
