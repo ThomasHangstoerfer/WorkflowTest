@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+/*
+   This causes a seg-fault.
+   For testing core-handler
+*/
 void crash()
 {
   volatile int* a = (int*)(NULL);
